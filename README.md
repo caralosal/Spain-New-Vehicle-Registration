@@ -10,6 +10,7 @@ This project can be useful for researchers, analysts, and policy makers interest
 
 The code follows the following structure:
 
+```text
 car-registrations-spain/
 │
 ├── data/
@@ -33,3 +34,4 @@ car-registrations-spain/
 ├── requirements.txt            # Requirements
 ├── README.md
 └── .gitignore
+```
