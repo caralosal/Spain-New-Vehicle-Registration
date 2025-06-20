@@ -11,7 +11,7 @@ This project can be useful for researchers, analysts, and policy makers interest
 The code follows the following structure:
 
 ```text
-car-registrations-spain/
+Spain-New-Vehicle-Registration/
 │
 ├── data/
 │   ├── bronze/        # Data without processing
@@ -20,7 +20,7 @@ car-registrations-spain/
 │
 ├── src/
 │   ├── __init__.py
-│   ├── data_ingestion.py       # Download data and process it
+│   ├── data_gathering.py       # Download data and process it
 │   ├── data_cleaning.py        # Process data from bronze to silver
 │   ├── feature_engineering.py  # Add some interesting columns/features and load them into gold
 │   └── utils/
