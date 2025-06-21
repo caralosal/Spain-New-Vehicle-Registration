@@ -9,14 +9,13 @@ import os
 import time
 
 class DataGatherer:
-    def __init__(self, base_page_url: str, retries: int = 3, delay: int = 2):
+    def __init__(self, base_page_url: str, bronze_path: str, retries: int = 3, delay: int = 2):
         self.base_page_url = base_page_url
+        self.bronze_path = bronze_path
         self.session = requests.Session()
         self.logger = get_logger(self.__class__.__name__)
         self.retries = retries
         self.delay = delay
-        self.unzipped_dir = BRONZE / "unzipped"
-        self.unzipped_dir.mkdir(parents=True, exist_ok=True)
 
     def get_zip_links(self) -> list:
         self.logger.info(f"Scraping zip links from {self.base_page_url}")
@@ -41,9 +40,9 @@ class DataGatherer:
             raise
 
     def get_bronze_files(self) -> list:
-        self.logger.info(f"Searching for files in {BRONZE}")
+        self.logger.info(f"Searching for files in {self.bronze_path}")
         try:
-            bronze_files = os.listdir(BRONZE)
+            bronze_files = os.listdir(self.bronze_path)
             bronze_files = [file for file in bronze_files if file.endswith('.zip')]
             self.logger.info(f"Found {len(bronze_files)} .zip files")
             return bronze_files
@@ -54,7 +53,7 @@ class DataGatherer:
 
     def download_zip(self, url: str) -> Path:
         filename = url.split("/")[-1]
-        destination = BRONZE / filename
+        destination = self.bronze_path / filename
 
         if destination.exists():
             self.logger.info(f"File already exists, skipping: {filename}")
@@ -113,4 +112,4 @@ class DataGatherer:
                 zip_path = self.download_zip(url)
                 # self.unzip_file(zip_path)
         else:
-            self.logger.info(f"Files up to date, no need for updates.")
+            self.logger.info(f"All files downloaded, no need for updates.")
