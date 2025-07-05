@@ -1,0 +1,175 @@
+cars:
+  VOLKSWAGEN : Volkswagen
+  VOLKSWAGEN V W : Volkswagen
+  VOLKSWAGEN, VW : Volkswagen
+  VOLKSWAGEN VW : Volkswagen
+  VOLKSWAGEN AG : Volkswagen
+  TOYOTA : Toyota
+  RENAULT : Renault
+  RENAULT TRUCKS : Renault
+  ALPINE RENAULT : Renault
+  RENAULT TRUCKS SAS : Renault
+  PEUGEOT : Peugeot
+  AUTOMOBILES PEUGEOT : Peugeot
+  MERCEDES-BENZ : Mercedes-Benz
+  MERCEDES BENZ : Mercedes-Benz
+  MERCEDES : Mercedes-Benz
+  MERCEDES-AMG : Mercedes-Benz
+  MERCEDES-BENZ MINIBUS : Mercedes-Benz
+  BMW : BMW
+  BMW I : BMW
+  BAYER.MOT.WERKW-BMW : BMW
+  BMW AG : BMW
+  HYUNDAI : Hyundai
+  HYUNDAI MOTOR (ROK) : Hyundai
+  DACIA : DACIA
+  CITROEN : CITROEN
+  KIA : KIA
+  KIA MOTOR (ROK) : KIA
+  SEAT : Seat
+  FORD : Ford
+  FORD-CNG-TECHNIK : Ford
+  FORD WERKE : Ford
+  FORD/CHALLENGER : Ford
+  FORD-CI : Ford
+  AUDI : Audi
+  MG : MG
+  MG ROEWE : MG
+  EMG : MG
+  MG,ROEWE : MG
+  SKODA : Skoda
+  TEMSA SKODA SABANCI : Skoda
+  OPEL : Opel
+  OPEL VAUXHALL : Opel
+  OPEL-VAUXHALL : Opel
+  CUPRA : Cupra
+  NISSAN : Nissan
+  BYD : BYD
+  BYD FORKLIFT : BYD
+  FIAT : Fiat
+  FIAT AUTO SPA : Fiat
+  FIAT ADRIA MOBIL : Fiat
+  FIAT SEA : Fiat
+  VOLVO : Volvo
+  ZONTES : Zontes
+  MAZDA : Mazda
+  OMODA : Omoda
+  MINI : Mini
+  JEEP : Jeep
+  JEEP EAGLE : Jeep
+  CHRYSLER : Chrysler
+  DAIMLER CHRYSLER : Chrysler
+  DAIMLERCHRYSLER AG : Chrysler
+  DAIMLER CHRYSLER AG : Chrysler
+  DAIMLERCHRYSLER CO JEEP : Chrysler
+  TESLA : Tesla
+  KAWASAKI : Kawasaki
+  LEXUS : Lexus
+  JAECOO : Jaecoo
+  PIAGGIO : Piaggio
+  EBRO : Ebro
+  IVECO : Iveco
+  MITSUBISHI : Mitsubishi
+  MITSUBISHI FUSO : Mitsubishi
+  PORSCHE : Porsche
+  MAN : Man
+  LAND ROVER : Land Rover
+  LAND  ROVER : Land Rover
+  KG MOBILITY : KG Mobility
+  ALFA ROMEO : Alfa Romeo
+  MITT : Mitt
+  LEAPMOTOR : Leapmotor
+  DS : DS
+  DS AUTOMOBILES : DS
+  SMART : Smart
+  SUBARU : Subaru
+  LYNK&CO : LynkCo
+  SSANGYONG : Ssangyong
+  BENIMAR : Benimar
+  LANCIA : Lancia
+  MAXUS : Maxus
+  ISUZU : Isuzu
+  AIXAM : Aixam
+  ADRIA : Adria
+  DR : DR
+  CHEVROLET : Chevrolet
+  POLESTAR : Polestar
+  ALPINE : Alpine
+  ALPINE RENAULT : Alpine
+  JAGUAR : Jaguar
+  JAGUAR LAND ROVER LIMITED : Land Rover
+  MASERATI : Maserati
+  FERRARI : Ferrari
+  HYMER : Hymer
+  ASTON MARTIN : Aston Martin
+  AUTOMOBILI LAMBORGHINI S.P.A. : Lamborghini
+  LAMBORGHINI : Lamborghini
+  BENTLEY : Bentley
+
+
+motorbikes:
+  YAMAHA : Yamaha
+  HONDA : Honda # Tiene motos y coches
+  SUZUKI : Suzuki # Tiene motos y coches
+  VOGE : Voge
+  SYM : SYM
+  KYMCO : Kymco
+  QJMOTOR: QJMotor
+  RIEJU : Rieju
+  TRIUMPH : Triumph
+  CFMOTO : CFMoto
+  KTM : KTM
+  DUCATI : Ducati
+  MACBOR : Macbor
+  APRILIA : Aprilia
+  KEEWAY : Keeway
+  SILENCE : Silence
+  ROYAL ENFIELD : Royal Enfield
+  BENELLI : Benelli
+  MH MOTORCYCLES : MH Motorcycles
+  WOTTAN : Wottan
+  SWM : SWM
+  SHERCO : Sherco
+  BETA : Beta
+  HARLEY-DAVIDSON : Harley Davidson
+  HUSQVARNA : Husqvarna
+  LONCIN : Loncin
+  VESPINO : Vespino
+  DERBI : Derbi
+  MOTO GUZZI : Moto Guzzi
+  INDIAN MOTORCYCLE : Indian Motorcycle
+  MOTO MORINI : Moto Morini
+  MV AGUSTA : MV Agusta
+
+trucks:
+  LECITRAILER : Lecitrailer
+  SCHMITZ CARGOBULL : Schmitz Cargobull
+  DAF : Daf
+  SCANIA : Scania
+  IGLUVAN : Igluvan
+  SORIBERICA : Soriberica
+  DEUTZ-FAHR : Deutz Fahr
+  TISVOL : Tisvol
+  IRIZAR : Irizar
+  DAIMLER : Daimler
+  
+tractor:
+  JOHN DEERE : John Deere
+  AUSA : Ausa
+  NEW HOLLAND : New Holland
+  JCB : JCB
+  MANITOU : Manitou
+  KRONE : Krone
+  FENDT : Fendt
+  WACKER NEUSON : Wacker Neuson
+  CLAAS : Claas
+  CASE IH : Case IH
+  MASSEY-FERGUSON : Massey Ferguson
+  KIOTI : Kioti
+  KUBOTA : Kubota
+
+unknown:
+  SIN MARCA : unknown
+  SORTIMO : Sortimo
+  MAÑEZ Y LOZANO : Mañez y Lozano
+  SUBIELA : Subiela
