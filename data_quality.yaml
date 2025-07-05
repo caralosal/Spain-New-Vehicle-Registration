@@ -32,6 +32,7 @@ cars:
   FORD WERKE : Ford
   FORD/CHALLENGER : Ford
   FORD-CI : Ford
+  FORD CNG TECHNIK : Ford
   AUDI : Audi
   MG : MG
   MG ROEWE : MG
@@ -42,6 +43,7 @@ cars:
   OPEL : Opel
   OPEL VAUXHALL : Opel
   OPEL-VAUXHALL : Opel
+  OLEOPEL : Opel
   CUPRA : Cupra
   NISSAN : Nissan
   BYD : BYD
@@ -83,8 +85,10 @@ cars:
   DS AUTOMOBILES : DS
   SMART : Smart
   SUBARU : Subaru
+  VALSAT : Valsat
   LYNK&CO : LynkCo
   SSANGYONG : Ssangyong
+  INFINITI : Infinity
   BENIMAR : Benimar
   LANCIA : Lancia
   MAXUS : Maxus
@@ -98,6 +102,7 @@ cars:
   ALPINE RENAULT : Alpine
   JAGUAR : Jaguar
   JAGUAR LAND ROVER LIMITED : Land Rover
+  JAGUAR LAND ROVER LIMIT : Land Rover
   MASERATI : Maserati
   FERRARI : Ferrari
   HYMER : Hymer
@@ -105,6 +110,7 @@ cars:
   AUTOMOBILI LAMBORGHINI S.P.A. : Lamborghini
   LAMBORGHINI : Lamborghini
   BENTLEY : Bentley
+  JIMINI : Jimini # Investigar estos modelos
 
 
 motorbikes:
@@ -113,6 +119,7 @@ motorbikes:
   SUZUKI : Suzuki # Tiene motos y coches
   VOGE : Voge
   SYM : SYM
+  S.Y.M : SYM
   KYMCO : Kymco
   QJMOTOR: QJMotor
   RIEJU : Rieju
@@ -132,7 +139,9 @@ motorbikes:
   SHERCO : Sherco
   BETA : Beta
   HARLEY-DAVIDSON : Harley Davidson
+  HARLEY DAVIDSON : Harley Davidson
   HUSQVARNA : Husqvarna
+  HUSQVARNA-CAGIVA : Husqvarna
   LONCIN : Loncin
   VESPINO : Vespino
   DERBI : Derbi
@@ -140,6 +149,9 @@ motorbikes:
   INDIAN MOTORCYCLE : Indian Motorcycle
   MOTO MORINI : Moto Morini
   MV AGUSTA : MV Agusta
+  GOVECS : Govecs
+  DAELIM : Daelim
+  HANWAY : Hanway
 
 trucks:
   LECITRAILER : Lecitrailer
@@ -173,3 +185,6 @@ unknown:
   SORTIMO : Sortimo
   MAÑEZ Y LOZANO : Mañez y Lozano
   SUBIELA : Subiela
+  ERKE : Erke
+  NUUK : Nuuk
+  RODRIGUEZ LOPEZ AUTO : Rodriguez Lopez Auto
