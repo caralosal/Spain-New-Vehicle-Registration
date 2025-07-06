@@ -9,10 +9,12 @@ with open(file_path, 'r') as file:
 
 
 # Useful information from zip files
+
 colspecs = [
     (0, 8),     # fecha_mat (ddmmyyyy)
     (17, 47),   # marca
     (47, 69),   # modelo
+    (95, 100),  # cilindrada
     (197, 228)  # localidad
 ]
 
@@ -20,5 +22,6 @@ colnames = [
     "fecha_matriculacion",
     "marca",
     "modelo",
+    "cilindrada",
     "localidad"
 ]
