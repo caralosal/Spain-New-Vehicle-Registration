@@ -152,6 +152,24 @@ motorbikes:
   GOVECS : Govecs
   DAELIM : Daelim
   HANWAY : Hanway
+  RIYA : Riya
+  SCUTUM : Scutum
+  HYOSUNG : Hyosung
+  TORROT : Torrot
+  GAS GAS : Gas Gas
+  GAS-GAS : Gas Gas
+  GASGAS : Gas Gas
+  LVNENG : Lvneng
+  ASKOLL : Askoll
+  SUPER SOCO : Super Soco
+  MOTRON MOTORRAD : Motron Motorrad
+  NIU : NIU # También tiene coches
+  GOGORO : Gogoro
+  EMCO : Emco
+  KOVE : Kove
+  LINHAI : Linhai
+  URBAN ELECTRIC MOTORS : Urban Electric
+  UM : UM
 
 trucks:
   LECITRAILER : Lecitrailer
@@ -164,6 +182,7 @@ trucks:
   TISVOL : Tisvol
   IRIZAR : Irizar
   DAIMLER : Daimler
+  SOR IBERICA : Sor Iberica
   
 tractor:
   JOHN DEERE : John Deere
@@ -179,6 +198,7 @@ tractor:
   MASSEY-FERGUSON : Massey Ferguson
   KIOTI : Kioti
   KUBOTA : Kubota
+  
 
 unknown:
   SIN MARCA : unknown
@@ -188,3 +208,45 @@ unknown:
   ERKE : Erke
   NUUK : Nuuk
   RODRIGUEZ LOPEZ AUTO : Rodriguez Lopez Auto
+  BERGADANA : Bergadana
+  INDE : Inde
+  IMF : IMF
+  RIDE : Ride
+  TECNOVE FIBERGLASS : TECNOVE FIBERGLASS
+  J.C.B. : JCB
+  A.U.S.A. : AUSA
+  TECNOVE SECURITY : TECNOVE SECURITY
+  LANDINI : LANDINI
+  GOING GREEN : GOING GREEN
+  LECAPITAINE INDUSTRIE : LECAPITAINE INDUSTRIE
+  SAME : SAME
+  HERMANOS GARCIA : HERMANOS GARCIA
+  DIVISEGUR CATALUNYA : DIVISEGUR CATALUNYA
+  LIGIER : LIGIER
+  TRS : TRS
+  
+
+
+cities: # Cities out of scope
+  - ADLISWIL
+  - BOUR EN BRESSE
+  - VVA DE CASTILLEJOS
+  - DIRBL
+  - S ESTEVE PALAUTORD
+  - HUERTA VALDECARABANO
+  - BAMAK - YRIMADJO
+  - VILLARMENTERO ESGUEV
+  - CUART DE LES VALLS
+  - MERINDAD CTA URRIA
+  - JUD
+  - BALLESTEROS CALATRAV
+  - TERI SAMO
+  - KARRANTZA H -V CARRANZA
+  - VILLANUEVA DE LA CONCEPC
+  - PUEBLA DE BROLLON
+  - CAMPILLOS PARAVIENTO
+  - OFFENBACH AM AMIN
+  - SIETE IGLESIAS TRABA
+
+
+add_cities:
