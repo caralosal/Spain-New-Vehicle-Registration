@@ -128,9 +128,25 @@ class FeatureEngineering:
         # 2. Apply process to add new lat and lon to cities
         # self._add_new_latitude_longitude(df_silver, self.data_quality)
         df_gold = self._add_latitude_longitude(df_gold_raw, self.data_quality, file_name)
+
+        df_gold.columns = [
+                        "registration_date",
+                        "model",
+                        "engine_displacement_cc",
+                        "city",
+                        "brand",
+                        "vehicle_type",
+                        "is_electric",
+                        "latitude",
+                        "longitude"
+                    ]
+        
+        df_gold['year'] = df_gold['registration_date'].dt.year
+        df_gold['month'] = df_gold['registration_date'].dt.month
         
 
-        return df_gold
+        return df_gold[['registration_date', 'year', 'month', 'city', 'latitude', 'longitude',
+                        'brand', 'model', 'engine_displacement_cc', 'vehicle_type', 'is_electric']]
     
 
     def process_files_to_gold(self):
